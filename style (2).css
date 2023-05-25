@@ -1,0 +1,113 @@
+body
+ {
+  background-color: #3a979e;
+  background-image: url("https://www.transparenttextures.com/patterns/gray-floral.png");
+}
+
+
+
+section #paracetamol
+{
+  background-color: aqua;
+  font-size: x-large;
+  text-align: center;
+  margin: 4%;
+
+}
+
+
+.pala{
+  font-family: 'DynaPuff', cursive;
+
+
+}
+
+p
+{
+font-family: 'Sedgwick Ave Display', cursive;
+margin: 10px 10px ;
+padding: 10px 10px;
+background-color: aqua;
+font-size: 110%;
+border-radius: 20px;
+
+
+}
+
+.imagenes {
+  height: 30%;
+  width: 30%;
+  margin-right: 3%;
+  border-radius: 40px;
+
+}
+
+.contenedor
+{
+display: flex;
+flex-flow: wrap;
+justify-content: center;
+padding: 10px;
+
+
+}
+
+a
+{
+position: relative;
+
+}
+
+.inputContainer
+{
+    border: 10px solid #2e518b; 
+    padding: 10px; 
+    background-color: white; 
+    color: #971515; 
+    text-decoration: black; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif; 
+    border-radius: 50px; 
+    position: relative;
+  
+
+}
+
+@media(min-width: 480px) {
+  .contenedor {
+  flex-direction: row ;
+  }
+
+}
+
+
+@media(min-width: 768px ){
+  .contenedor .imagenes {
+    width: 300px;
+    height: 300px;
+    margin-left: 2%;
+
+
+  }
+}
+
+
+@media(min-width: 1024px ){
+    h1 {
+font-size: 10rem;
+
+    }
+    h2 {
+      font-size: 10rem
+    }
+  .contenedor{
+    background-color: azure;
+  }
+
+  .contenedor.imagenes{
+    border: 5px solid rgb(94, 100, 260);
+    font-size: 4rem;
+  }
+
+
+}
